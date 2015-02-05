@@ -9,6 +9,10 @@ snippet blk "each wrap in block"
 <% end -%>
 endsnippet
 
+snippet end "end (ERB) No need dash at end when rails3"
+<% end %>
+endsnippet
 
-
-
+snippet lt "link to" i
+<%= link_to "${1}", ${2} %>
+endsnippet
